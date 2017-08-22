@@ -1,0 +1,28 @@
+{
+  "name": "booster-pack-router",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/booster-pack/router"
+  },
+  "author": {
+    "name": "Matthew Harwood",
+    "email": "matthhar12@gmail.com"
+  },
+  "keywords": [
+    "angular"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/booster-pack/router/issues"
+  },
+  "main": "booster-pack-router.umd.js",
+  "module": "booster-pack-router.js",
+  "jsnext:main": "booster-pack-router.js",
+  "typings": "booster-pack-router.d.ts",
+  "peerDependencies": {
+    "@angular/core": "^4.0.0",
+    "rxjs": "^5.1.0",
+    "zone.js": "^0.8.4"
+  }
+}

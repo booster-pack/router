@@ -4,7 +4,6 @@ import {
   NgModuleFactoryLoader,
   Provider,
 } from '@angular/core';
-import 'reflect-metadata';
 import {
   IModuleMap,
   MODULE_MAP,

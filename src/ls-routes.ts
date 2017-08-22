@@ -7,11 +7,10 @@ import {
 } from '@angular/core';
 import { platformServer } from '@angular/platform-server';
 import { Route, ROUTES } from '@angular/router';
-import 'reflect-metadata';
 import 'rxjs/add/operator/toPromise';
 import { Observable } from 'rxjs/Observable';
 import 'zone.js/dist/zone-node';
-import { provideModuleMap } from './map-factory-loader/map-loader.module';
+import { provideModuleMap } from './map-loader.module';
 
 let loader: NgModuleFactoryLoader;
 

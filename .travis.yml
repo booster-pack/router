@@ -1,7 +1,4 @@
 language: node_js
+sudo: false
 node_js:
-  - 'node' # use latest stable nodejs version
-script:
-  - npm run coverage # jest test with coverage flag does coverage too
-after_script:
-  - 'cat coverage/lcov.info | ./node_modules/.bin/coveralls' # sends the coverage report to coveralls
+- '4.2.1'
