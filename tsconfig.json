@@ -1,0 +1,22 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "declaration": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "lib": [
+      "es2016",
+      "dom"
+    ],
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es5",
+    "outDir": "./lib",
+    "preserveConstEnums": true,
+    "removeComments": true,
+    "inlineSourceMap": true,
+    "typeRoots": [
+      "./node_modules/@types"
+    ]
+  }
+}
