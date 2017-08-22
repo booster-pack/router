@@ -1,6 +1,6 @@
 {
-  "name": "booster-pack-router",
-  "version": "0.1.0",
+  "name": "@booster-pack/router",
+  "version": "0.0.5",
   "repository": {
     "type": "git",
     "url": "https://github.com/booster-pack/router"
