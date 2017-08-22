@@ -5,7 +5,7 @@
 To install this library, run:
 
 ```bash
-$ npm install booster-pack-router --save
+$ npm install @booster-pack/router --save
 ```
 
 ## Consuming your library
@@ -13,7 +13,7 @@ $ npm install booster-pack-router --save
 Once you have published your library to npm, you can import your library in any Angular application by running:
 
 ```bash
-$ npm install booster-pack-router
+$ npm install @booster-pack/router
 ```
 
 and then from your Angular `AppModule`:
@@ -25,7 +25,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 
 // Import your library
-import { SampleModule } from 'booster-pack-router';
+import { SampleModule } from '@booster-pack/router';
 
 @NgModule({
   declarations: [
